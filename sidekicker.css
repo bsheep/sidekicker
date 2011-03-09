@@ -1,0 +1,16 @@
+#container {
+    position: absolute;
+    width: 100%;
+}
+
+#kicker {
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    display: none;
+}
+#kickback {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
