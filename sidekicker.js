@@ -4,7 +4,6 @@
          var kicked = $(this);
          var kicker = (option && option.kicker) ? $(option.kicker) : $('#kicker');
          var container = (option && option.container) ? $(option.container) : $('#container');
-         console.log(container);
          container.animate({
              left: '-850px'
          }, 1000, function() {
