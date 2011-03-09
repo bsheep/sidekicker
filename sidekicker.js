@@ -4,6 +4,7 @@
          var kicked = $(this);
          var kicker = (option && option.kicker) ? $(option.kicker) : $('#kicker');
          var container = (option && option.container) ? $(option.container) : $('#container');
+         var kickback = (option && option.kickback) ? $(option.kickback) : $('#kickback');
          container.animate({
              left: '-850px'
          }, 1000, function() {
@@ -11,7 +12,7 @@
              var kicker_top = $('html, body').scrollTop() + 10;
              kicker.appendTo('body').css({left: kicker_left, top: kicker_top}).show('slow');
          });
-         $('#kickback').live('click', function() {
+         kickback.live('click', function() {
              kicker.hide('normal');
              container.animate({left:'0px'});
              return false;
