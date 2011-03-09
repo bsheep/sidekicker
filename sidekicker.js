@@ -1,5 +1,6 @@
 // Copyright (c) 2011 bsheep
 // under the MIT License
+// http://d.hatena.ne.jp/bsheep/20110309/1299683130
 
 (function($) {
  $.fn.sidekicker = function(option) {
