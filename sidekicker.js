@@ -1,3 +1,6 @@
+// Copyright (c) 2011 bsheep
+// under the MIT License
+
 (function($) {
  $.fn.sidekicker = function(option) {
      $(this).live('click', function() {
